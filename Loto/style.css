@@ -1,0 +1,45 @@
+body {
+    background:url("image/pic.jpeg");
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+
+}
+h2 {
+    color: darkcyan;
+    font-size: 40px;
+}
+
+button {
+    background-color: cadetblue;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 25px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    color: darkslategrey;
+}
+
+.num {
+    font-weight: bold;
+    font-size: 2rem;
+    border: 3px darkslategrey solid;
+    padding:  30px 40px;
+    border-radius: 200px;
+    margin-top: 50px;
+    opacity: 0.6;
+
+
+}
